@@ -1,5 +1,6 @@
 @import url("../css/variaveis.css");
 @import url("../css/header.css");
+@import url("../css/banner.css");
 
 body{
     background-color: var(--cor-de-fundo);
