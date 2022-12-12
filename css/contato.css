@@ -1,8 +1,6 @@
 .contato{
     padding: 1.5em;
     background-color: var(--branco);
-
-    margin-bottom: 1000px;
 }
 
 .contato__texto,
