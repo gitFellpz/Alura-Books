@@ -62,12 +62,82 @@
     display: none;
 }
 
+
+/* Script Adicionado para desktop */
+    .container__titulo{
+        display: none;
+    }
+
+    .opcoes{
+        display: none;
+    }
+
+
 /* Mobile menores -- alterações pontuais*/
-@media(max-width: 400px) {
+@media screen and (max-width: 400px) {
     .container img{
         width: 40%;
     }
     .container .container__imagem:nth-child(4){
         width: 35px;
+    }
+}
+
+
+/* RESPONSIVIDADE DESKTOP */
+@media screen and (min-width: 1024px) {
+    .container__titulo,
+    .container__titulo--negrito{
+        font-family: var(--font-secundaria);
+        font-size: 30px;
+    }
+
+    .container__titulo{
+        font-weight: 400;
+        margin-top: 7px;
+        display: block;
+    }
+
+    .container__titulo--negrito{
+        font-weight: 700;
+    }
+
+    .opcoes{
+        display: flex;
+    }
+
+    .opcoes__item{
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__imagem--favorito{
+        display: none;
+    }
+
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+
+    /* Lista  em CATEGORIAS reutilizando scripts*/
+    .opcoes__botao:checked ~ .lista-menu{
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__botao{
+        display: none;
+    }
+
+
+
+    /* Estilização toque */
+    .cabecalho{
+        justify-content: space-evenly;
     }
 }

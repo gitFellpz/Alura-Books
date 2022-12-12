@@ -38,7 +38,7 @@
 
 
 /* Mobile menores -- alterações pontuais*/
-@media(max-width: 400px) {
+@media screen and (max-width: 400px) {
     .banner__pesquisa::placeholder{
         margin-left: -50px;
         color: var(--branco);
@@ -47,7 +47,7 @@
     }
 }
 
-@media(max-width: 330px) {
+@media screen and (max-width: 330px) {
     .banner{
         padding: 2.5em 1.5em;
     }
@@ -57,4 +57,4 @@
     }
 }
 
- 
+

@@ -97,7 +97,7 @@
 
 
 /* Mobile menores -- alterações pontuais*/
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
     .descricao__titulo{
         font-size: 14px;
     }
