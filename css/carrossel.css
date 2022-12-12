@@ -97,9 +97,27 @@
 
 
 /* Mobile menores -- alterações pontuais*/
-@media(max-width: 400px) {
-    .card__descricao img{
-        width: 150px;
-        margin-left: 20px;
+@media (max-width: 400px) {
+    .descricao__titulo{
+        font-size: 14px;
     }
+
+    .descricao__titulo-livro {
+        font-size: 16px;
+    }
+
+    .descricao__texto{
+        font-size: 13px;
+    }
+
+    .card__descricao .descricao__imagem{
+        width: 7em;
+        margin-left: 5px;
+        max-height: 150px;
+    }
+
+    .card__botoes .botoes__ancora{
+        padding: 0.8em;
+    }
+
 }

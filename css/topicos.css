@@ -25,3 +25,11 @@
     padding: 1em;
     font-weight: 700;
 }
+
+
+/* Mobile menores -- alterações pontuais*/
+@media(max-width: 400px){
+    .topicos__link{
+        padding: 0.6em;
+    }
+}
