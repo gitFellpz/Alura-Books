@@ -135,9 +135,8 @@
     }
 
 
-
-    /* Estilização toque */
-    .cabecalho{
-        justify-content: space-evenly;
-    }
+    /* Toque */
+        .cabecalho{
+            justify-content: space-evenly;
+        }
 }

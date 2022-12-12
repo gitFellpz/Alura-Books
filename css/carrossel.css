@@ -121,3 +121,61 @@
     }
 
 }
+
+
+/* RESPONSIVIDADE DESKTOP */
+@media screen and (min-width: 1024px){
+    .carrossel__titulo{
+        font-size: 26px;
+    }
+
+    .swiper-pagination{
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper{
+        max-width: 800px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next{
+        display: block;
+        top: 60%;
+    }
+
+    /* Estilização minha - toque */
+        .swiper-button-prev,
+        .swiper-button-next{
+            background-color: var(--azul);
+            color: var(--branco);
+            width: 50px;
+            height: 50px;
+            display: flex;
+            border-radius: 30px;
+
+        }
+
+        .swiper-button-next::after,
+        .swiper-button-prev::after{
+            font-size: 20px;
+        }
+
+        /* toque 2 */
+            .swiper-button-next::after{
+                margin-left: 3px;
+            }
+            .swiper-button-prev::after{
+                margin-right: 3px;
+            }
+
+        .swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden{
+            padding: 0 3em;
+        }
+
+        .card{
+            max-width: 550px;
+            margin: 3em auto;
+        }
+
+
+}

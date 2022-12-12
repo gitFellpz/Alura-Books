@@ -60,6 +60,11 @@
 
 /* RESPONSIVIDADE DESKTOP */
 @media screen and (min-width: 1024px){
+    /* Toque */
+        .banner{
+            padding: 8em 2em;
+        }
+
     .banner__titulo{
         font-size: 36px;
     }
