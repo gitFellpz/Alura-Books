@@ -81,8 +81,8 @@
     text-decoration: none;
 }
 
-/* section carrossel 2 */
 
+/* section carrossel 2 */
 .carrossel__titulo--2{
     padding: 1.5em 0 0.5em 0;
 }
@@ -93,4 +93,13 @@
 
 .swiper-pagination span{
     background-color: var(--azul);
+}
+
+
+/* Mobile menores -- alterações pontuais*/
+@media(max-width: 400px) {
+    .card__descricao img{
+        width: 150px;
+        margin-left: 20px;
+    }
 }
