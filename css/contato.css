@@ -36,3 +36,27 @@
     background-position: 1em;
     padding-left: 3.5em;
 }
+
+
+/* RESPONSIVIDADE DESKTOP */
+@media screen and (min-width: 1024px){
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3em 1.5em;
+    }
+
+    .contato__descricao{
+        margin-right: 1em;
+        width: 30%;
+    }
+
+    .contato__email{
+        width: 30%;
+    }
+
+    .contato__titulo{
+        font-size: 24px;
+    }
+}
