@@ -77,3 +77,20 @@
         background-position: 6em;
     }
 }
+
+
+/* RESPONSIVIDADE DESKTOP 1728px*/
+@media screen and (min-width: 1728px){
+    .banner__pesquisa{
+        width: 35%;
+        padding: 1.5em;
+    }
+
+    .banner__pesquisa::placeholder{
+        background-position: 10em;
+    }
+
+    .banner__texto{
+        margin: 2em 0;
+    }
+}
