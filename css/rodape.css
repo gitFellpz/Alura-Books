@@ -43,3 +43,12 @@
         font-size: 14px;
     }
 }
+
+
+/* RESPONSIVIDADE DESKTOP 1728px*/
+@media screen and (min-width: 1728px){
+    .box-rodape{
+        border-left: 1px solid var(--cinza-claro-2);
+        padding-left: 1em;
+    }
+}
