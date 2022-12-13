@@ -144,6 +144,10 @@
     }
 
     /* Estilização minha - toque */
+        .botoes__ancora{
+            padding: 1em 2.2em;
+        }
+
         .swiper-button-prev,
         .swiper-button-next{
             background-color: var(--azul);
