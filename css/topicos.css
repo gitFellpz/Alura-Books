@@ -33,3 +33,20 @@
         padding: 0.6em;
     }
 }
+
+
+/* RESPONSIVIDADE DESKTOP */
+@media screen and (min-width: 1024px){
+    .topicos__titulo{
+        font-size: 24px;
+    }
+
+    .topicos__link{
+        font-size: 20px;
+    }
+
+    /* toque */
+        .topicos{
+            padding: 1.5em 4em;
+        }
+}
