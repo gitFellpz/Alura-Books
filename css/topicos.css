@@ -50,3 +50,11 @@
             padding: 1.5em 4em;
         }
 }
+
+
+/* RESPONSIVIDADE DESKTOP 1728px*/
+@media screen and (min-width: 1728px){
+    .topicos{
+        padding: 3.5em 35vw;
+    }
+}
