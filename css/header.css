@@ -7,6 +7,18 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    transition: 0.5s;
+}
+
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer{
+    background-image: url("../images/Menu\ Aberto.svg");
+    transition: 0.5s;
+    transform: rotate(90deg);
+}
+
+.container__botao:checked ~ .container__rotulo{
+    background: var(--gradient-azul);
+    transform: rotate(-90deg);
 }
 
 .cabecalho{
@@ -15,6 +27,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    padding: 0 1em;
 }
 
 .container{
