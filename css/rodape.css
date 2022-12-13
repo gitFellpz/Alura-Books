@@ -18,6 +18,7 @@
     .rodape{
         display: flex;
         justify-content: space-around;
+        padding-top: 3em;
     }
 
     .rodape__titulo{
@@ -27,5 +28,18 @@
     .box-rodape__item{
         display: flex;
         align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .box-rodape__link{
+        margin-left: 1em;
+        text-decoration: none;
+        color: var(--cinza);
+    }
+
+    .box-rodape__titulo{
+        margin-bottom: 2em;
+        color: var(--cinza-claro-2);
+        font-size: 14px;
     }
 }
