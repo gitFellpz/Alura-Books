@@ -125,7 +125,7 @@
     }
 
     .opcoes__item{
-        padding: 0 1em;
+        padding: 1.5em 1em;
         text-transform: uppercase;
     }
 
@@ -157,6 +157,22 @@
         .cabecalho{
             justify-content: space-evenly;
         }
+
+    
+    .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item{
+        background: var(--gradient-azul);
+        color: var(--branco);
+    }
+
+    .lista-menu__item:hover{
+        background: var(--gradient-azul);
+    }
+
+    .lista-menu__item:hover .lista-menu__link{
+        -webkit-text-fill-color: var(--branco);
+        /* esse qebkit antes era transparente */
+        text-decoration: none;
+    }
 }
 
 
