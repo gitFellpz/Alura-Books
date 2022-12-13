@@ -180,6 +180,38 @@
             width: 40%;
             margin: 3em auto;
         }
+}
 
 
+/* RESPONSIVIDADE DESKTOP 1728px*/
+@media screen and (min-width: 1728px){
+    .carrossel__container{
+        display: flex;
+        margin: 4em 20vw 5em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+    
+    .swiper{
+        width: 50%;
+    }
+
+    .card{
+        width: 35%;
+    }
+
+    .descricao__titulo{
+        font-size: 32px;
+    }
+
+    .descricao__texto{
+        font-size: 16px;
+    }
+
+    .descricao{
+        margin-right: 1em;
+    }
 }
